@@ -1,0 +1,89 @@
+body{
+   background-image: url(https://images.pexels.com/photos/2245436/pexels-photo-2245436.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.div{
+    text-align: center;
+    text-size-adjust: 25%;
+}
+
+.red{
+    text-align: center;
+    padding: 29px;
+    border-radius: 25rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu ul li {
+    margin-left: 20px;
+}
+
+.navbar-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: radius 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 300px;
+}
+
+.search-button {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-button:hover {
+    background-color: #1c86ee;
+}
+
+
